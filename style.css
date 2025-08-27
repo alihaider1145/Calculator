@@ -5,6 +5,32 @@
     width:300px;
 }
 
+btn{
+    width: 70px;
+    height: 75px;
+}
+
+.upperBtn{
+    display: flex;
+}
+
+.midBtn{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lowerBtn{
+    display: flex;
+}
+
+.zeroBtn{
+    flex-grow: 2;
+}
+
+.equalBtn{
+    flex-grow: 2;
+}
+
 btn.clear{
     background-color: red;
 }
