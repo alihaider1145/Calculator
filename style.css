@@ -1,6 +1,18 @@
 .outerBody{
-    background-color: grey;
+    background-color: black;
     margin: auto;
     height: 500px;
     width:300px;
+}
+
+btn.clear{
+    background-color: red;
+}
+
+btn.operand{
+    background-color: grey;
+}
+
+btn.operator{
+    background-color: yellow;
 }
