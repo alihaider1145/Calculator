@@ -5,9 +5,10 @@
     width:300px;
 }
 
-btn{
+.outerBody button{
     width: 70px;
     height: 75px;
+    border: 2px solid black;
 }
 
 .upperBtn{
@@ -36,14 +37,14 @@ btn{
     height: 75px;
 }
 
-btn.clear{
+button.clear{
     background-color: red;
 }
 
-btn.operand{
+button.operand{
     background-color: grey;
 }
 
-btn.operator{
+button.operator{
     background-color: yellow;
 }
