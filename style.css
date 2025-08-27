@@ -2,13 +2,15 @@
     background-color: black;
     margin: auto;
     height: 500px;
-    width:300px;
+    width:  300px;
+    border: 1px solid black;
 }
 
 .outerBody button{
-    width: 70px;
+    width: 75px;
     height: 75px;
     border: 2px solid black;
+    font-size: large;
 }
 
 .upperBtn{
@@ -24,6 +26,14 @@
     display: flex;
 }
 
+.screen{
+    height: 100px;
+    width:auto;
+    background-color: #F0F8FF;
+    margin: 12px;
+    align-items: center;
+}
+
 .zeroBtn{
     flex-grow: 2;
 }
@@ -32,8 +42,14 @@
     flex-grow: 2;
 }
 
+.backspaceBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .backspaceBtn img{
-    width: 70px;
+    width: 75px;
     height: 75px;
 }
 
